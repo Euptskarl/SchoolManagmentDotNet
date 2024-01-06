@@ -152,5 +152,6 @@ namespace MVCApp.Controllers
         {
             return _context.Courses.Any(e => e.Id == id);
         }
+        
     }
 }
